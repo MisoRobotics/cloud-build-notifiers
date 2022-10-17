@@ -27,7 +27,7 @@ import (
 
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/civil"
-	"github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers"
+	"github.com/MisoRobotics/cloud-build-notifiers/lib/notifiers"
 	log "github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/google/go-containerregistry/pkg/name"

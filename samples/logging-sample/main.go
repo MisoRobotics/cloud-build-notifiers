@@ -17,14 +17,15 @@
 package main
 
 import (
-        "context"
-        "fmt"
+	"context"
+	"fmt"
 
-        cbpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"
-        log "github.com/golang/glog"
-        "github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers"
-        "github.com/golang/protobuf/proto"
+	"github.com/MisoRobotics/cloud-build-notifiers/lib/notifiers"
+	log "github.com/golang/glog"
+	"github.com/golang/protobuf/proto"
+	cbpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"
 )
+
 // [END cloudbuild_logging_sample_imports]
 
 // [START cloudbuild_logging_sample_main_func]

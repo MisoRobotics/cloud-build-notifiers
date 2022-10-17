@@ -333,7 +333,7 @@ type actualSecretManager struct {
 }
 
 func (a *actualSecretManager) GetSecret(ctx context.Context, name string) (string, error) {
-	// See https://github.com/GoogleCloudPlatform/golang-samples/blob/master/secretmanager/access_secret_version.go# for an example usage.
+	// See https://github.com/MisoRobotics/golang-samples/blob/master/secretmanager/access_secret_version.go# for an example usage.
 	res, err := a.client.AccessSecretVersion(ctx, &smpb.AccessSecretVersionRequest{Name: name})
 	if err != nil {
 		return "", fmt.Errorf("failed to get secret named %q: %w", name, err)

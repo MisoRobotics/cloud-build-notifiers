@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers"
+	"github.com/MisoRobotics/cloud-build-notifiers/lib/notifiers"
 	log "github.com/golang/glog"
 	chat "google.golang.org/api/chat/v1"
 

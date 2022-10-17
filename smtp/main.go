@@ -23,7 +23,7 @@ import (
 	"net/smtp"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers"
+	"github.com/MisoRobotics/cloud-build-notifiers/lib/notifiers"
 	log "github.com/golang/glog"
 	"github.com/golang/protobuf/proto"
 	cbpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"

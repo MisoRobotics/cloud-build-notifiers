@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers"
+	"github.com/MisoRobotics/cloud-build-notifiers/lib/notifiers"
 )
 
 func TestSetUp(t *testing.T) {

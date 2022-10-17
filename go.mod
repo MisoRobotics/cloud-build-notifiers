@@ -1,8 +1,8 @@
-module github.com/GoogleCloudPlatform/cloud-build-notifiers
+module github.com/MisoRobotics/cloud-build-notifiers
 
 go 1.16
 
-replace github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers => ./lib/notifiers
+replace github.com/MisoRobotics/cloud-build-notifiers/lib/notifiers => ./lib/notifiers
 
 require (
 	cloud.google.com/go v0.81.0
